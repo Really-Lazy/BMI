@@ -55,20 +55,20 @@ image_dict = {
 if bmi < 18.5:
     category = "Underweight"
     st.warning(category)
-    st.image(image_dict[gender]["Underweight"], use_column_width=False, width=150)  # กำหนดขนาดภาพที่เล็กลง
+    st.image(image_dict[gender]["Underweight"], width=150)
 elif 18.5 <= bmi < 24.9:
     category = "Normal"
     st.success("Normal weight")
-    st.image(image_dict[gender]["Normal"], use_column_width=False, width=150)  # กำหนดขนาดภาพที่เล็กลง
+    st.image(image_dict[gender]["Normal"], width=150)
 elif 25 <= bmi < 29.9:
     category = "Overweight"
     st.info(category)
-    st.image(image_dict[gender]["Overweight"], use_column_width=False, width=150)  # กำหนดขนาดภาพที่เล็กลง
+    st.image(image_dict[gender]["Overweight"], width=150)
 elif 30 <= bmi < 39.9:
     category = "Obese"
     st.error(category)
-    st.image(image_dict[gender]["Obese"], use_column_width=False, width=150)  # กำหนดขนาดภาพที่เล็กลง
+    st.image(image_dict[gender]["Obese"], width=150)
 else:
     category = "Extremely Obese"
     st.error(category)
-    st.image(image_dict[gender]["Extremely Obese"], use_column_width=False, width=150)  # กำหนดขนาดภาพที่เล็กลง
+    st.image(image_dict[gender]["Extremely Obese"], width=150)
