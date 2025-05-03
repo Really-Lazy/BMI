@@ -43,11 +43,11 @@ image_dict = {
         "Extremely Obese": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/12/rin-mad-2.jpg"
     },
     "Female": {
-        "Underweight": "female_underweight.jpg",
-        "Normal": "female_normal.jpg",
-        "Overweight": "female_overweight.jpg",
-        "Obese": "female_obese.jpg",
-        "Extremely Obese": "female_extremely_obese.jpg"
+        "Underweight": "https://thumbs.dreamstime.com/z/too-thin-woman-anorexia-model-2814892.jpg",
+        "Normal": "https://static.vecteezy.com/system/resources/thumbnails/036/095/205/small/ai-generated-beautiful-anime-girl-photo.jpg",
+        "Overweight": "https://i.pinimg.com/736x/99/c1/22/99c1224a119194497c9496b690843f98.jpg",
+        "Obese": "https://pics.craiyon.com/2024-09-05/zv7qTm3WRhiPav2qRStvXA.webp",
+        "Extremely Obese": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJFhTEUBEmhtZymPGaUd7CEPqwKisi6izjkg&s"
     }
 }
 
